@@ -1,6 +1,6 @@
 # insershort
 Kodluyoruz Eğitimi kapsamında insertshort
-Insertion Sort Aşamaları: Verilen dizi: [22, 27, 16, 2, 18, 6]
+# Insertion Sort Aşamaları: Verilen dizi: [22, 27, 16, 2, 18, 6]
 Adım 1: Başlangıçta 22'yi aldık ve sıralı kabul ettik. Dizi: [22, 27, 16, 2, 18, 6] (Bu adımda bir değişiklik yok.)
 
 Adım 2: 27'yi alıyoruz, 22 ile karşılaştırıyoruz. 27, 22'den büyük olduğu için 27 yerinde kalır. Dizi: [22, 27, 16, 2, 18, 6]
@@ -16,3 +16,6 @@ Adım 6: Son olarak 6'yı alıyoruz, ve sırasıyla 27, 22, 18, 16, 2 ile karş�
 Sonuç olarak sıralı dizi: [2, 6, 16, 18, 22, 27]
 
 Burada tüm sıralama aşamaları doğru verilmiştir.
+
+# Big-O Gösterimi: Insertion Sort'un zaman karmaşıklığı doğru şekilde açıklanmıştır:
+Best Case (O(n)): Dizi zaten sıralıysa her eleman sadece bir kez karşılaştırılır. Worst Case (O(n²)): Dizi tersten sıralıysa her eleman, sırasıyla önceki tüm elemanlarla karşılaştırılır. Average Case (O(n²)): Ortalama durumda, karmaşıklık yine O(n²) olacaktır. 3. 18 Sayısının Durumu: Dizi sıralandıktan sonra 18, [2, 6, 16, 18, 22, 27] dizisinin ortasında yer almaktadır. Bu da Average Case durumuna girer, çünkü 18 sayısı dizinin ortasında bir pozisyondadır.
